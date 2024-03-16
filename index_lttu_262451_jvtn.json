@@ -1,0 +1,80 @@
+apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+console.log(getRandomString());
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const greet = name => `Hello, ${name}!`;
+
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+function addNumbers(a, b) { return a + b; }
+true - true
+const variableName = getRandomNumber();
+false - 36,21,34,36,76,7,13,30,52,21,88,22,14,15,35,36,50,96,9,22,88,19,82,87,79,62,39,87,55,38,27,12,41,97,95,41,40,77,15,63,18,86,42,11,20,56
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+53 * 95
+const sum = (a, b) => a + b;
+
+50 / banana
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getUniqueValues = array => [...new Set(array)];
+let array = getRandomArray(); array.forEach(item => console.log(item));
+71 * true
+const getRandomElement = array => array[getRandomIndex(array)];
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+apple * 96,13,7,79,6,67,12,73,40,11,96,71,8,96,84,33,45,96,1,67,42,35,2,79,3,58,69,0,29,64,29,8,42,12,89,39,30,91,43,26,79,26,44,25,74,73,44,42
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+78 - 57
+const isEven = num => num % 2 === 0;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+console.log(getRandomString());
+43 / 35
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const reverseString = str => str.split("").reverse().join("");
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana * banana
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+36,25,60,0,99,22,59,42,62,83,8,35,89,65,60,34,91,2,22,58,38 / grape
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findLargestNumber = numbers => Math.max(...numbers);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+34 / 9,76,77,52,17,73,95,69,78,84,91,16,1,80,27,94,84,52,24,57,55,35,51,94,63,56,19,4,67
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+kiwi
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple - false
+const squareRoot = num => Math.sqrt(num);
