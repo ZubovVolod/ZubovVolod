@@ -1,0 +1,37 @@
+18 * apple
+const isPalindrome = str => str === str.split("").reverse().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false - kiwi
+const removeDuplicates = array => Array.from(new Set(array));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+47,32,59,17,82,15,9,39,84,83,16,42,13,79,65,52,33,72,23,83,74,22,92,23,30,67,80,61,82,27,61,91,56,82,89,61,86,81,69,45 + apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const greet = name => `Hello, ${name}!`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const formatDate = date => new Date(date).toLocaleDateString();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+26 * false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const multiply = (a, b) => a * b;
+const greet = name => `Hello, ${name}!`;
+12 + false
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+apple + 27
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
